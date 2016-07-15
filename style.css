@@ -1,0 +1,22 @@
+.top-buffer {
+    margin-top: 50px;
+}
+
+.img-circle {
+    background-size: cover;
+    margin: 0 auto;
+}
+
+a > img {
+    margin: 0 0 25px;
+}
+
+#copyright {
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .intro .intro-body .brand-heading {
+        font-size: 70px;
+    }
+}
