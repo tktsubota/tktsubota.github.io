@@ -8,11 +8,19 @@
 }
 
 a > img {
-    margin: 0 0 25px;
+    margin-bottom: 25px;
+}
+
+.btn-default {
+    margin-bottom: 25px;
 }
 
 #copyright {
     font-size: 12px;
+}
+
+.content-section {
+    padding-top: 150px;
 }
 
 @media (min-width: 768px) {
