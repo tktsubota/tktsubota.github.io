@@ -20,7 +20,15 @@ a > img {
 }
 
 .content-section {
-    padding-top: 150px;
+    padding-top: 100px;
+}
+
+.intro {
+    background: url(assets/banner.jpg) no-repeat center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 @media (min-width: 768px) {
