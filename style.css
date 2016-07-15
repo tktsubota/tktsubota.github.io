@@ -5,6 +5,7 @@
 .img-circle {
     background-size: cover;
     margin: 0 auto;
+    border: 3px solid #333;
 }
 
 a > img {
@@ -31,8 +32,63 @@ a > img {
     background-size: cover;
 }
 
+body {
+    background-color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #333;
+}
+
+p {
+    color: #333;
+}
+
+a {
+    color: #3f05d8;
+}
+
+a:hover, a:focus {
+    color: #230378;
+}
+
+.btn-default {
+    border: 1px solid #3f05d8;
+    border-radius: 500px;
+    color: #3f05d8;
+    background-color: transparent;
+}
+
+.btn-default:hover, .btn-default:focus {
+    border: 1px solid #230378;
+    outline: none;
+    color: #ccc;
+    background-color: #230378;
+}
+
+.navbar-custom, .navbar-custom.top-nav-collapse {
+    background-color: white;
+}
+
+.navbar-custom.top-nav-collapse a {
+    color: #333;
+}
+
+.intro h1, .intro p {
+    color: white;
+}
+
 @media (min-width: 768px) {
     .intro .intro-body .brand-heading {
         font-size: 70px;
+    }
+    
+    .navbar-custom {
+        background-color: transparent;
+    }
+    
+    .navbar-custom.top-nav-collapse {
+        background-color: white;
+        border-bottom: 1px solid rgba(51, 51, 51, 0.3);
     }
 }
