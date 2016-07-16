@@ -5,7 +5,7 @@
 .img-circle {
     background-size: cover;
     margin: 0 auto;
-    border: 3px solid #333;
+    border: 2px solid #3f05d8;
 }
 
 a > img {
@@ -32,12 +32,39 @@ a > img {
     background-size: cover;
 }
 
+.intro .row .col-md-8 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(51, 51, 51, 0.3);
+    border-radius: 2px;
+}
+
 body {
     background-color: white;
+    font-family: Georgia, serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
     color: #333;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-transform: none;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.btn {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-transform: none;
 }
 
 p {
@@ -62,33 +89,119 @@ a:hover, a:focus {
 .btn-default:hover, .btn-default:focus {
     border: 1px solid #230378;
     outline: none;
-    color: #ccc;
+    color: #eee;
     background-color: #230378;
 }
 
 .navbar-custom, .navbar-custom.top-nav-collapse {
     background-color: white;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-transform: none;
 }
 
 .navbar-custom.top-nav-collapse a {
-    color: #333;
+    color: #3f05d8;
 }
 
-.intro h1, .intro p {
+.navbar-custom .navbar-brand {
+    color: #3f05d8;
+    outline: none;
+    background-color: transparent;
+}
+
+.navbar-brand:hover {
+    color: #230378;
+}
+
+.navbar-custom .navbar-toggle {
+    color: #3f05d8;
+    border-color: #3f05d8;
+}
+
+.intro .intro-body .brand-heading,
+.intro .intro-body .intro-text {
     color: white;
 }
 
+.navbar-custom .nav li a {
+    color: #3f05d8;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: #ddd;
+}
+
+.navbar-custom.top-nav-collapse .nav li a {
+    color: #3f05d8;
+}
+
+.navbar-custom .nav li a:hover {
+    color: #230378;
+    outline: none;
+}
+
+.navbar-custom.top-nav-collapse .nav li a:hover {
+    color: #230378;
+    outline: none;
+}
+
+.navbar-custom.top-nav-collapse .nav li a:focus,
+.navbar-custom.top-nav-collapse .nav li a:active {
+    outline: none;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 20px;
+}
+
 @media (min-width: 768px) {
+    h1 {
+        font-size: 55px;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+    
     .intro .intro-body .brand-heading {
         font-size: 70px;
     }
     
+    .intro .intro-body .intro-text {
+        font-size: 35px;
+    }
+    
     .navbar-custom {
+        color: white;
         background-color: transparent;
+    }
+    
+    .navbar-custom .nav li a {
+        color: white;
     }
     
     .navbar-custom.top-nav-collapse {
         background-color: white;
         border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+    }
+    
+    .navbar-custom .navbar-brand {
+        visibility: hidden;
+    }
+    
+    .navbar-custom.top-nav-collapse .navbar-brand {
+        visibility: visible;
+    }
+    
+    .navbar-brand:hover {
+        color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .navbar-custom .nav li a:hover {
+        color: rgba(255, 255, 255, 0.8);
     }
 }
