@@ -2,10 +2,14 @@
     margin-top: 50px;
 }
 
+.top-responsive {
+    margin-top: 75px;
+}
+
 .img-circle {
     background-size: cover;
     margin: 0 auto;
-    border: 2px solid #3f05d8;
+    border: 1px solid #333;
 }
 
 a > img {
@@ -154,6 +158,10 @@ a:hover, a:focus {
     font-size: 20px;
 }
 
+.btn-twitter, .btn-github, .btn-medium {
+    margin-bottom: 0;
+}
+
 /* Branding
  https://about.twitter.com/company/brand-assets
  https://about.twitter.com/press/twitter-brand-policy
@@ -191,7 +199,7 @@ a:hover, a:focus {
     background-color: #00ab6c;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 801px) {
     h1 {
         font-size: 55px;
     }
@@ -241,5 +249,13 @@ a:hover, a:focus {
     
     .navbar-custom .nav li a:hover {
         color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .top-responsive {
+        margin-top: 0;
+    }
+    
+    .btn-twitter, .btn-github, .btn-medium {
+        margin-bottom: 25px;
     }
 }

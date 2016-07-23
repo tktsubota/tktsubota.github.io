@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            body {
+                background-color:#3e6198;
+            }
+            h1 {
+                text-align:center;
+            }
+            .centered {
+                text-align:center;
+            }
+            #browserp {
+                color:#ff0;
+            }
+            #navigation {
+                float:left;
+                height:660px;
+                width:175px;
+                border:2px solid black;
+                background-color:#5a7cff;
+            }
+            #nav {
+                font-size:23px;
+                text-align:left;
+            }
+            #hangmanp {
+                margin-top:150px;
+                margin-left:300px;
+                font-size:25px;
+            }
+            #hangmanpic {
+                height:200px;
+                width:200px;
+                border:1px solid black;
+                margin-left:245px;
+                background-color:#ffffff;
+            }
+            #hanger {
+                height:15px;
+                width:10px;
+                background-color:#000;
+                margin-left:96px;
+                margin-bottom:0;
+            }
+            #head {
+                height:30px;
+                width:30px;
+                background-color:#000;
+                position:absolute;
+                left:340px;
+                top:317px;
+                border-radius:15px;
+            }
+            #torso {
+                height:60px;
+                width:10px;
+                background-color:#000;
+                position:absolute;
+                left:350px;
+                top:347px;
+            }
+            #leftarm {
+                height:10px;
+                width:53px;
+                background-color:#000;
+                position:absolute;
+                left:303.98px;
+                top:345px;
+                transform:rotate(33deg);
+                -ms-transform:rotate(33deg);
+                -moz-transform:rotate(33deg);
+                -webkit-transform:rotate(33deg);
+                -o-transform:rotate(33deg);
+            }
+            #rightarm {
+                height:10px;
+                width:53px;
+                background-color:#000;
+                position:absolute;
+                left:353.98px;
+                top:345px;
+                transform:rotate(-33deg);
+                -ms-transform:rotate(-33deg);
+                -moz-transform:rotate(-33deg);
+                -webkit-transform:rotate(-33deg);
+                -o-transform:rotate(-33deg);
+            }
+            #leftleg {
+                height:50px;
+                width:10px;
+                background-color:#000;
+                position:absolute;
+                left:336px;
+                top:398px;
+                transform:rotate(35deg);
+                -ms-transform:rotate(35deg);
+                -moz-transform:rotate(35deg);
+                -webkit-transform:rotate(35deg);
+                -o-transform:rotate(35deg);
+            }
+            #rightleg {
+                height:50px;
+                width:10px;
+                background-color:#000;
+                position:absolute;
+                left:366px;
+                top:398px;
+                transform:rotate(-35deg);
+                -ms-transform:rotate(-35deg);
+                -moz-transform:rotate(-35deg);
+                -webkit-transform:rotate(-35deg);
+                -o-transform:rotate(-35deg);
+            }
+            a:link {
+                color:#000;
+                text-decoration:none;
+            }
+            a:visited {
+                color:#000;
+                text-decoration:none;
+            }
+            a:hover {
+                color:#0000e6;
+                text-decoration:none;
+                cursor:pointer;
+            }
+            #hangmanpic:hover {
+                cursor:pointer;
+            }
+        </style>
+        <title>Online Games</title>
+    </head>
+    <body>
+        <div id="navigation">
+            <ul>
+                <p id="nav">Navigation</p>
+                <br/>
+                <li><a href="index.html">Home</li>
+                <li><a href="hangmanlists.html">Hangman</a></li>
+            </ul>
+        </div>
+        <h1>Online Games</h1>
+        <p class="centered">Pick a word game you want to play on the left in the navigation menu. If none of the games interest you, we'll have more games soon!</p>
+        <p class="centered" id="browserp">
+            <!--[if lte IE 9]><b>Games on this website may not be compatible with Internet Explorer. You may need to switch browsers to play games on this website.</b><![endif]-->
+            <!--[if !IE]>--><!--<![endif]-->
+        </p>
+        <p id="hangmanp"><a href="hangmanlists.html">Hangman</a></p>
+        <div id="hangmanpic" onclick="self.location='hangmanlists.html'">
+            <div id="hanger"></div>
+            <div id="head"></div>
+            <div id="leftarm"></div>
+            <div id="rightarm"></div>
+            <div id="torso"></div>
+            <div id="rightleg"></div>
+            <div id="leftleg"></div>
+        </div>
+    </body>
+</html>

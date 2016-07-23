@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            body {
+                background-color:#3e6198;
+            }
+            h1 {
+                text-align:center;
+            }
+            .centered {
+                text-align:center;
+            }
+            .linkDiv {
+                height:50px;
+                width:165px;
+                background-color:#8585ff;
+                border:1px solid black;
+            }
+            .big {
+                font-size:40px;
+            }
+            #navigation {
+                float:left;
+                height:660px;
+                width:175px;
+                border:2px solid black;
+                background-color:#5a7cff;
+            }
+            #nav {
+                font-size:23px;
+                text-align:left;
+            }
+            #levellabel {
+                font-size:30px;
+                position:absolute;
+                top:40px;
+                left:1150px;
+            }
+            #standardlabel {
+                font-size:40px;
+            }
+            #customlabel {
+                font-size:40px;
+                position:absolute;
+                top:290px;
+                left:615px;
+            }
+            #e-s {
+                position:absolute;
+                top:225px;
+                left:275px;
+            }
+            #m-s {
+                position:absolute;
+                top:225px;
+                left:525px;
+            }
+            #h-s {
+                position:absolute;
+                top:225px;
+                left:775px;
+            }
+            #ex-s {
+                position:absolute;
+                top:225px;
+                left:1025px;
+            }
+            #c-c {
+                display:inline-block;
+                position:absolute;
+                top:415px;
+                left:500px;
+            }
+            #fd-c {
+                width:215px;
+                display:inline-block;
+                position:absolute;
+                top:415px;
+                left:775px;
+            }
+            #easy {
+                margin-left:43px;
+            }
+            #med {
+                margin-left:18px;
+            }
+            #hard {
+                margin-left:43px;
+            }
+            #extr {
+                margin-left:18px;
+            }
+            #con {
+                margin-left:5px;
+            }
+            #fnd {
+                margin-left:5px;
+            }
+            a:link {
+                color:#000;
+                text-decoration:none;
+            }
+            a:visited {
+                color:#000;
+                text-decoration:none;
+            }
+            a:hover {
+                color:#0000e6;
+                text-decoration:none;
+                cursor:pointer;
+            }
+            #e-s:hover {
+                cursor:pointer;
+            }
+            #m-s:hover {
+                cursor:pointer;
+            }
+            #h-s:hover {
+                cursor:pointer;
+            }
+            #ex-s:hover {
+                cursor:pointer;
+            }
+            #c-c:hover {
+                cursor:pointer;
+            }
+            #fd-c:hover {
+                cursor:pointer;
+            }
+        </style>
+        <script src="hlists.js"></script>
+        <title>Hangman Lists</title>
+    </head>
+    <body>
+        <div id="navigation">
+            <ul>
+                <p id="nav">Navigation</p>
+                <br/>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hangmanlists.html">Hangman</a> </li>
+            </ul>
+        </div>
+        <h1>Choose Your List:</h1>
+        <p class="centered">Choose the appropriate list of words or choose a custom list. The list you choose will affect the words you get.</p>
+        <div>
+            <p class="centered" id="standardlabel">Standard Lists:</p>
+        </div>
+        <div class="linkDiv" id="e-s" onclick="self.location='hangmaneasy.html'">
+            <a href="hangmaneasy.html" class="big" id="easy">Easy</a>
+        </div>
+        <div class="linkDiv" id="m-s" onclick="self.location='hangmanmedium.html'">
+            <a href="hangmanmedium.html" class="big" id="med">Medium</a>
+        </div>
+        <div class="linkDiv" id="h-s" onclick="self.location='hangmanhard.html'">
+            <a href="hangmanhard.html" class="big" id="hard">Hard</a>
+        </div>
+        <div class="linkDiv" id="ex-s" onclick="self.location='hangmanextreme.html'">
+            <a href="hangmanextreme.html" class="big" id="extr">Extreme</a>
+        </div>
+        <div>
+            <p id="customlabel">Custom Lists:</p>
+        </div>
+        <div class="linkDiv" id="c-c" onclick="self.location='hangmancountries.html'">
+            <a href="hangmancountries.html" class="big" id="con">Countries</a>
+        </div>
+        <div class="linkDiv" id="fd-c" onclick="self.location='hangmanfd.html'">
+            <a href="hangmanfd.html" class="big" id="fnd">Food&amp;Drink</a>
+        </div>
+    </body>
+</html>
