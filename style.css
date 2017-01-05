@@ -90,7 +90,11 @@ a:hover, a:focus {
     background-color: transparent;
 }
 
-.btn-default:hover, .btn-default:focus {
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default:active:hover,
+.btn-default:active:focus {
     border: 1px solid #230378;
     outline: none;
     color: #eee;
@@ -174,7 +178,11 @@ a:hover, a:focus {
     color: #55acee;
 }
 
-.btn-twitter:hover, .btn-twitter:focus {
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter:active:hover,
+.btn-twitter:active:focus {
     border-color: #55acee;
     background-color: #55acee;
 }
@@ -184,7 +192,11 @@ a:hover, a:focus {
     color: #333;
 }
 
-.btn-github:hover, .btn-github:focus {
+.btn-github:hover,
+.btn-github:focus,
+.btn-github:active,
+.btn-github:active:hover,
+.btn-github:active:focus {
     border-color: #333;
     background-color: #333;
 }
@@ -194,7 +206,11 @@ a:hover, a:focus {
     color: #00ab6c;
 }
 
-.btn-medium:hover, .btn-medium:focus {
+.btn-medium:hover,
+.btn-medium:focus,
+.btn-medium:active,
+.btn-medium:active:hover,
+.btn-medium:active:focus {
     border-color: #00ab6c;
     background-color: #00ab6c;
 }
