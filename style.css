@@ -2,6 +2,11 @@
     margin-top: 50px;
 }
 
+.bottom-zero {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 .top-responsive {
     margin-top: 75px;
 }
@@ -34,13 +39,8 @@ a > img {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.intro .row .col-md-8 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: rgba(51, 51, 51, 0.3);
-    border-radius: 2px;
+    background-color: rgba(0,0,0,.4);
+    background-blend-mode: multiply;
 }
 
 body {
@@ -76,17 +76,17 @@ p {
 }
 
 a {
-    color: #3f05d8;
+    color: #048895;
 }
 
 a:hover, a:focus {
-    color: #230378;
+    color: #03656f;
 }
 
 .btn-default {
-    border: 1px solid #3f05d8;
+    border: 1px solid #048895;
     border-radius: 500px;
-    color: #3f05d8;
+    color: #048895;
     background-color: transparent;
 }
 
@@ -95,10 +95,10 @@ a:hover, a:focus {
 .btn-default:active,
 .btn-default:active:hover,
 .btn-default:active:focus {
-    border: 1px solid #230378;
+    border: 1px solid #03656f;
     outline: none;
     color: #eee;
-    background-color: #230378;
+    background-color: #03656f;
 }
 
 .navbar-custom, .navbar-custom.top-nav-collapse {
@@ -108,22 +108,22 @@ a:hover, a:focus {
 }
 
 .navbar-custom.top-nav-collapse a {
-    color: #3f05d8;
+    color: #048895;
 }
 
 .navbar-custom .navbar-brand {
-    color: #3f05d8;
+    color: #048895;
     outline: none;
     background-color: transparent;
 }
 
 .navbar-brand:hover {
-    color: #230378;
+    color: #03656f;
 }
 
 .navbar-custom .navbar-toggle {
-    color: #3f05d8;
-    border-color: #3f05d8;
+    color: #048895;
+    border-color: #048895;
 }
 
 .intro .intro-body .brand-heading,
@@ -132,7 +132,7 @@ a:hover, a:focus {
 }
 
 .navbar-custom .nav li a {
-    color: #3f05d8;
+    color: #048895;
 }
 
 .navbar-custom .nav li.active a {
@@ -140,16 +140,16 @@ a:hover, a:focus {
 }
 
 .navbar-custom.top-nav-collapse .nav li a {
-    color: #3f05d8;
+    color: #048895;
 }
 
 .navbar-custom .nav li a:hover {
-    color: #230378;
+    color: #03656f;
     outline: none;
 }
 
 .navbar-custom.top-nav-collapse .nav li a:hover {
-    color: #230378;
+    color: #03656f;
     outline: none;
 }
 
@@ -162,16 +162,11 @@ a:hover, a:focus {
     font-size: 20px;
 }
 
-.btn-twitter, .btn-github, .btn-medium {
+.btn-twitter, .btn-github, .btn-stack-overflow {
     margin-bottom: 0;
+    padding: 8px;
+    font-size: 25px;
 }
-
-/* Branding
- https://about.twitter.com/company/brand-assets
- https://about.twitter.com/press/twitter-brand-policy
- https://github.com/logos
- https://medium.com/policy/logos-and-brand-guidelines-f1a01a733592#.3aglq5w6v
- */
 
 .btn-twitter {
     border-color: #55acee;
@@ -201,77 +196,77 @@ a:hover, a:focus {
     background-color: #333;
 }
 
-.btn-medium {
-    border-color: #00ab6c;
-    color: #00ab6c;
+.btn-stack-overflow {
+    border-color: #f48024;
+    color: #f48024;
 }
 
-.btn-medium:hover,
-.btn-medium:focus,
-.btn-medium:active,
-.btn-medium:active:hover,
-.btn-medium:active:focus {
-    border-color: #00ab6c;
-    background-color: #00ab6c;
+.btn-stack-overflow:hover,
+.btn-stack-overflow:focus,
+.btn-stack-overflow:active,
+.btn-stack-overflow:active:hover,
+.btn-stack-overflow:active:focus {
+    border-color: #f48024;
+    background-color: #f48024;
 }
 
 @media (min-width: 801px) {
     h1 {
         font-size: 55px;
     }
-    
+
     h2 {
         font-size: 40px;
     }
-    
+
     h3 {
         font-size: 30px;
     }
-    
+
     .intro .intro-body .brand-heading {
         font-size: 70px;
     }
-    
+
     .intro .intro-body .intro-text {
         font-size: 35px;
     }
-    
+
     .navbar-custom {
         color: white;
         background-color: transparent;
     }
-    
+
     .navbar-custom .nav li a {
         color: white;
         font-size: 16px;
     }
-    
+
     .navbar-custom.top-nav-collapse {
         background-color: white;
         border-bottom: 1px solid rgba(51, 51, 51, 0.3);
     }
-    
+
     .navbar-custom .navbar-brand {
         visibility: hidden;
     }
-    
+
     .navbar-custom.top-nav-collapse .navbar-brand {
         visibility: visible;
     }
-    
+
     .navbar-brand:hover {
         color: rgba(255, 255, 255, 0.8);
     }
-    
+
     .navbar-custom .nav li a:hover {
         color: rgba(255, 255, 255, 0.8);
     }
-    
+
     .top-responsive {
         margin-top: 0;
     }
-    
-    .btn-twitter, .btn-github, .btn-medium {
+
+    .btn-twitter, .btn-github, .btn-stack-overflow {
         margin-bottom: 25px;
     }
 }
