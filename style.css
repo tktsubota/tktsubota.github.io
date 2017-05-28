@@ -2,6 +2,15 @@
     margin-top: 50px;
 }
 
+.top-buffer-half {
+    margin-top: 25px;
+}
+
+.fa-angle-double-down {
+    margin: 0;
+    padding: 0 0 0 1px;
+}
+
 .bottom-zero {
     padding-bottom: 0;
     margin-bottom: 0;
@@ -50,7 +59,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
     color: #333;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
 }
 
@@ -67,7 +76,7 @@ h3 {
 }
 
 .btn {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
 }
 
@@ -103,7 +112,7 @@ a:hover, a:focus {
 
 .navbar-custom, .navbar-custom.top-nav-collapse {
     background-color: white;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
 }
 
@@ -210,7 +219,24 @@ a:hover, a:focus {
     background-color: #f48024;
 }
 
-@media (min-width: 801px) {
+.apple-wallet-img {
+    width: 200px;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .apple-wallet-img {
+        margin-top: 25px;
+    }
+    #articles .text-left {
+        text-align: center;
+    }
+    #articles .text-right {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
     h1 {
         font-size: 55px;
     }
