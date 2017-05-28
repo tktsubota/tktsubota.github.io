@@ -1,0 +1,298 @@
+.top-buffer {
+    margin-top: 50px;
+}
+
+.top-buffer-half {
+    margin-top: 25px;
+}
+
+.fa-angle-double-down {
+    margin: 0;
+    padding: 0 0 0 1px;
+}
+
+.bottom-zero {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.top-responsive {
+    margin-top: 75px;
+}
+
+.img-circle {
+    background-size: cover;
+    margin: 0 auto;
+    border: 1px solid #333;
+}
+
+a > img {
+    margin-bottom: 25px;
+}
+
+.btn-default {
+    margin-bottom: 25px;
+}
+
+#copyright {
+    font-size: 12px;
+}
+
+.content-section {
+    padding-top: 100px;
+}
+
+.intro {
+    background: url(assets/banner.jpg) no-repeat center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(0,0,0,.4);
+    background-blend-mode: multiply;
+}
+
+body {
+    background-color: white;
+    font-family: Georgia, serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.btn {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+}
+
+p {
+    color: #333;
+}
+
+a {
+    color: #048895;
+}
+
+a:hover, a:focus {
+    color: #03656f;
+}
+
+.btn-default {
+    border: 1px solid #048895;
+    border-radius: 500px;
+    color: #048895;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default:active:hover,
+.btn-default:active:focus {
+    border: 1px solid #03656f;
+    outline: none;
+    color: #eee;
+    background-color: #03656f;
+}
+
+.navbar-custom, .navbar-custom.top-nav-collapse {
+    background-color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+}
+
+.navbar-custom.top-nav-collapse a {
+    color: #048895;
+}
+
+.navbar-custom .navbar-brand {
+    color: #048895;
+    outline: none;
+    background-color: transparent;
+}
+
+.navbar-brand:hover {
+    color: #03656f;
+}
+
+.navbar-custom .navbar-toggle {
+    color: #048895;
+    border-color: #048895;
+}
+
+.intro .intro-body .brand-heading,
+.intro .intro-body .intro-text {
+    color: white;
+}
+
+.navbar-custom .nav li a {
+    color: #048895;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: #ddd;
+}
+
+.navbar-custom.top-nav-collapse .nav li a {
+    color: #048895;
+}
+
+.navbar-custom .nav li a:hover {
+    color: #03656f;
+    outline: none;
+}
+
+.navbar-custom.top-nav-collapse .nav li a:hover {
+    color: #03656f;
+    outline: none;
+}
+
+.navbar-custom.top-nav-collapse .nav li a:focus,
+.navbar-custom.top-nav-collapse .nav li a:active {
+    outline: none;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 20px;
+}
+
+.btn-twitter, .btn-github, .btn-stack-overflow {
+    margin-bottom: 0;
+    padding: 8px;
+    font-size: 25px;
+}
+
+.btn-twitter {
+    border-color: #55acee;
+    color: #55acee;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter:active:hover,
+.btn-twitter:active:focus {
+    border-color: #55acee;
+    background-color: #55acee;
+}
+
+.btn-github {
+    border-color: #333;
+    color: #333;
+}
+
+.btn-github:hover,
+.btn-github:focus,
+.btn-github:active,
+.btn-github:active:hover,
+.btn-github:active:focus {
+    border-color: #333;
+    background-color: #333;
+}
+
+.btn-stack-overflow {
+    border-color: #f48024;
+    color: #f48024;
+}
+
+.btn-stack-overflow:hover,
+.btn-stack-overflow:focus,
+.btn-stack-overflow:active,
+.btn-stack-overflow:active:hover,
+.btn-stack-overflow:active:focus {
+    border-color: #f48024;
+    background-color: #f48024;
+}
+
+.apple-wallet-img {
+    width: 200px;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .apple-wallet-img {
+        margin-top: 25px;
+    }
+    #articles .text-left {
+        text-align: center;
+    }
+    #articles .text-right {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 70px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 35px;
+    }
+
+    .navbar-custom {
+        color: white;
+        background-color: transparent;
+    }
+
+    .navbar-custom .nav li a {
+        color: white;
+        font-size: 16px;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        background-color: white;
+        border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+    }
+
+    .navbar-custom .navbar-brand {
+        visibility: hidden;
+    }
+
+    .navbar-custom.top-nav-collapse .navbar-brand {
+        visibility: visible;
+    }
+
+    .navbar-brand:hover {
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .navbar-custom .nav li a:hover {
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .top-responsive {
+        margin-top: 0;
+    }
+
+    .btn-twitter, .btn-github, .btn-stack-overflow {
+        margin-bottom: 25px;
+    }
+}

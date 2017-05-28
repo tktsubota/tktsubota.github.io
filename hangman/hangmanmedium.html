@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            body {
+                background-color:#3e6198;
+            }
+            h1 {
+                text-align:center;
+            }
+            .centered {
+                text-align:center;
+            }
+            #navigation {
+                float:left;
+                height:660px;
+                width:175px;
+                border:2px solid black;
+                background-color:#5a7cff;
+            }
+            #nav {
+                font-size:23px;
+                text-align:left;
+            }
+            #playingDiv {
+                height:400px;
+                width:650px;
+                background-color:#fff;
+                border:2px solid black;
+                display:inline-block;
+                margin-top:75px;
+                margin-left:200px;
+            }
+            #guess {
+                height:25px;
+                width:25px;
+                font-size:20px;
+                margin-left:70px;
+                margin-top:9px;
+                text-align:center;
+            }
+            #guesstext {
+                font-size:25px;
+                margin-left:50px;
+                margin-top:50px;
+            }
+            #guessDiv {
+                height:50px;
+                width:170px;
+                background-color:#f93;
+                border-radius:10px;
+                margin-left:45px;
+                margin-top:20px;
+            }
+            #wlettertext {
+                font-size:25px;
+                margin-left:40px;
+                margin-top:30px;
+            }
+            #wletterDiv {
+                height:50px;
+                width:170px;
+                background-color:#f93;
+                border-radius:10px;
+                margin-left:45px;
+                margin-top:20px;
+            }
+            #wletterp {
+                font-size:32px;
+                text-align:center;
+            }
+            #incorrecttext {
+                position:absolute;
+                top:450px;
+                left:400px;
+            }
+            #incorrectp {
+                font-size:15px;
+                text-align:center;
+            }
+            #hanger-top {
+                height:10px;
+                width:150px;
+                background-color:#000;
+                position:absolute;
+                left:670px;
+                top:180px;
+            }
+            #hanger {
+                height:40px;
+                width:10px;
+                background-color:#000;
+                position:absolute;
+                left:810px;
+                top:180px;
+            }
+            #hanger-middle {
+                height:275px;
+                width:10px;
+                background-color:#000;
+                position:absolute;
+                left:670px;
+                top:180px;
+            }
+            #hanger-base {
+                height:10px;
+                width:250px;
+                background-color:#000;
+                position:absolute;
+                left:670px;
+                top:455px;
+            }
+            #head {
+                height:30px;
+                width:30px;
+                background-color:#000;
+                position:absolute;
+                left:800px;
+                top:220px;
+                border-radius:15px;
+            }
+            #torso {
+                height:60px;
+                width:10px;
+                background-color:#000;
+                position:absolute;
+                left:810px;
+                top:250px;
+            }
+            #leftarm {
+                height:10px;
+                width:53px;
+                background-color:#000;
+                position:absolute;
+                left:763.98px;
+                top:248px;
+                transform:rotate(33deg);
+                -ms-transform:rotate(33deg);
+                -moz-transform:rotate(33deg);
+                -webkit-transform:rotate(33deg);
+                -o-transform:rotate(33deg);
+            }
+            #rightarm {
+                height:10px;
+                width:53px;
+                background-color:#000;
+                position:absolute;
+                left:813.98px;
+                top:248px;
+                transform:rotate(-33deg);
+                -ms-transform:rotate(-33deg);
+                -moz-transform:rotate(-33deg);
+                -webkit-transform:rotate(-33deg);
+                -o-transform:rotate(-33deg);
+            }
+            #leftleg {
+                height:50px;
+                width:10px;
+                background-color:#000;
+                position:absolute;
+                left:796px;
+                top:301px;
+                transform:rotate(35deg);
+                -ms-transform:rotate(35deg);
+                -moz-transform:rotate(35deg);
+                -webkit-transform:rotate(35deg);
+                -o-transform:rotate(35deg);
+            }
+            #rightleg {
+                height:50px;
+                width:10px;
+                background-color:#000;
+                position:absolute;
+                left:826px;
+                top:301px;
+                transform:rotate(-35deg);
+                -ms-transform:rotate(-35deg);
+                -moz-transform:rotate(-35deg);
+                -webkit-transform:rotate(-35deg);
+                -o-transform:rotate(-35deg);
+            }
+            #xleftlefteye {
+                height:6px;
+                width:1px;
+                background-color:#f00;
+                position:absolute;
+                top:230px;
+                left:810px;
+                transform:rotate(-45deg);
+                -ms-transform:rotate(-45deg);
+                -moz-transform:rotate(-45deg);
+                -webkit-transform:rotate(-45deg);
+                -o-transform:rotate(-45deg);
+            }
+            #xrightlefteye {
+                height:6px;
+                width:1px;
+                background-color:#f00;
+                position:absolute;
+                top:230px;
+                left:810px;
+                transform:rotate(45deg);
+                -ms-transform:rotate(45deg);
+                -moz-transform:rotate(45deg);
+                -webkit-transform:rotate(45deg);
+                -o-transform:rotate(45deg);
+            }
+            #xleftrighteye {
+                height:6px;
+                width:1px;
+                background-color:#f00;
+                position:absolute;
+                top:230px;
+                left:819px;
+                transform:rotate(-45deg);
+                -ms-transform:rotate(-45deg);
+                -moz-transform:rotate(-45deg);
+                -webkit-transform:rotate(-45deg);
+                -o-transform:rotate(-45deg);
+            }
+            #xrightrighteye {
+                height:6px;
+                width:1px;
+                background-color:#f00;
+                position:absolute;
+                top:230px;
+                left:819px;
+                transform:rotate(45deg);
+                -ms-transform:rotate(45deg);
+                -moz-transform:rotate(45deg);
+                -webkit-transform:rotate(45deg);
+                -o-transform:rotate(45deg);
+            }
+            #losemouth {
+                height:1px;
+                width:7px;
+                background-color:#f00;
+                position:absolute;
+                top:242px;
+                left:812px;
+            }
+            #tongue {
+                height:4px;
+                width:2px;
+                background-color:#f00;
+                position:absolute;
+                top:242px;
+                left:817.5px;
+                transform:rotate(-45deg);
+                -ms-transform:rotate(-45deg);
+                -moz-transform:rotate(-45deg);
+                -webkit-transform:rotate(-45deg);
+                -o-transform:rotate(-45deg);
+            }
+            #tongueend {
+                height:2px;
+                width:2px;
+                background-color:#f00;
+                border-radius:1px;
+                position:absolute;
+                top:245px;
+                left:819.5px;
+            }
+            #winlefteye {
+                height:5px;
+                width:5px;
+                background-color:#0f0;
+                border-radius:2.5px;
+                position:absolute;
+                top:230px;
+                left:808px;
+            }
+            #winrighteye {
+                height:5px;
+                width:5px;
+                background-color:#0f0;
+                border-radius:2.5px;
+                position:absolute;
+                top:230px;
+                left:817px;
+            }
+            #winmouth {
+                height:3px;
+                width:6px;
+                background-color:#0f0;
+                border-radius:0 0 6px 6px;
+                position:absolute;
+                top:240px;
+                left:812px;
+            }
+            #leftx {
+                height:10px;
+                width:200px;
+                position:absolute;
+                top:280px;
+                left:716px;
+                background-color:#f00;
+                transform:rotate(55deg);
+                -ms-transform:rotate(55deg);
+                -moz-transform:rotate(55deg);
+                -webkit-transform:rotate(55deg);
+                -o-transform:rotate(55deg);
+            }
+            #rightx {
+                height:10px;
+                width:200px;
+                position:absolute;
+                top:280px;
+                left:716px;
+                background-color:#f00;
+                transform:rotate(-55deg);
+                -ms-transform:rotate(-55deg);
+                -moz-transform:rotate(-55deg);
+                -webkit-transform:rotate(-55deg);
+                -o-transform:rotate(-55deg);
+            }
+            #smallcheck {
+                height:10px;
+                width:50px;
+                position:absolute;
+                top:320px;
+                left:755px;
+                background-color:#0f0;
+                transform:rotate(33deg);
+                -ms-transform:rotate(33deg);
+                -moz-transform:rotate(33deg);
+                -webkit-transform:rotate(33deg);
+                -o-transform:rotate(33deg);
+            }
+            #bigcheck {
+                height:10px;
+                width:150px;
+                position:absolute;
+                top:270px;
+                left:765px;
+                background-color:#0f0;
+                transform:rotate(-55deg);
+                -ms-transform:rotate(-55deg);
+                -moz-transform:rotate(-55deg);
+                -webkit-transform:rotate(-55deg);
+                -o-transform:rotate(-55deg);
+            }
+            #winlose {
+                font-size:30px;
+                position:absolute;
+                top:350px;
+                left:760px;
+            }
+            #word {
+                margin-top:60px;
+                margin-left:225px;
+            }
+            #definition {
+                position:absolute;
+                top:550px;
+                left:390px;
+            }
+            #chosenword {
+                font-size:30px;
+                display:inline-block;
+                position:absolute;
+                top:460px;
+                left:910px;
+            }
+            #chosenword2 {
+                font-size:30px;
+                display:inline-block;
+                position:absolute;
+                top:460px;
+                left:475px;
+            }
+            #chosenword3 {
+                font-size:30px;
+                display:inline-block;
+                position:absolute;
+                top:460px;
+                left:505px;
+            }
+            #chosenword4 {
+                font-size:30px;
+                display:inline-block;
+                position:absolute;
+                top:460px;
+                left:535px;
+            }
+            #chosenword5 {
+                font-size:30px;
+                display:inline-block;
+                position:absolute;
+                top:460px;
+            }
+            #chosenword6 {
+                font-size:30px;
+                display:inline-block;
+                position:absolute;
+                top:460px;
+            }
+            #resetbutton {
+                position:absolute;
+                top:425px;
+                left:780px;
+            }
+            #backbutton {
+                position:absolute;
+                top:160px;
+                left:395px;
+            }
+            a:link {
+                color:#000;
+                text-decoration:none;
+            }
+            a:visited {
+                color:#000;
+                text-decoration:none;
+            }
+            a:hover {
+                color:#0000e6;
+                text-decoration:none;
+                cursor:pointer;
+            }
+            </style>
+        <script type="text/javascript" src="hm.js"></script>
+        <title>Hangman - Medium</title>
+    </head>
+    <body>
+        <div id="navigation">
+            <ul>
+                <p id="nav">Navigation</p>
+                <br/>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hangmanlists.html">Hangman</a></li>
+            </ul>
+        </div>
+        <h1>Hangman - Medium</h1>
+        <button id="resetbutton" onclick="reset()">Play Again</button>
+        <button id="backbutton" onclick="self.location='hangmanlists.html'">Back</button>
+        <div id="playingDiv">
+            <div id="hanger-top"></div>
+            <div id="hanger"></div>
+            <div id="hangman-body">
+                <!--This is where all the body parts will go-->
+                <div id="head"></div>
+                <div id="torso"></div>
+                <div id="leftarm"></div>
+                <div id="rightarm"></div>
+                <div id="leftleg"></div>
+                <div id="rightleg"></div>
+                <div id="xleftlefteye"></div>
+                <div id="xrightlefteye"></div>
+                <div id="xleftrighteye"></div>
+                <div id="xrightrighteye"></div>
+                <div id="losemouth"></div>
+                <div id="tongue"></div>
+                <div id="tongueend"></div>
+                <div id="winlefteye"></div>
+                <div id="winrighteye"></div>
+                <div id="winmouth"></div>
+                <div id="leftx"></div>
+                <div id="rightx"></div>
+                <div id="smallcheck"></div>
+                <div id="bigcheck"></div>
+                <p id="winlose"></p>
+            </div>
+            <div id="hanger-middle"></div>
+            <div id="hanger-base"></div>
+            <div id="guesstext">
+                <b>Guess a letter:</b>
+            </div>
+            <div id="guessDiv">
+                <input id="guess" type="text" maxlength="1" onkeyup="mainGame(event)"/>
+            </div>
+            <div id="wlettertext">
+                <b>Incorrect Letters:</b>
+            </div>
+            <div id="wletterDiv">
+                <p id="wletterp"></p>
+            </div>
+            <div id="incorrecttext">
+                <p id="incorrectp"></p>
+            </div>
+            <div id="word">
+                <p id="chosenword"></p>
+                <p id="chosenword2"></p>
+                <p id="chosenword3"></p>
+                <p id="chosenword4"></p>
+                <p id="chosenword5"></p>
+                <p id="chosenword6"></p>
+            </div>
+        </div>
+        <div id="definition">
+            <p id="definitionp"></p>
+        </div>
+    </body>
+</html>
