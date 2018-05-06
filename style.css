@@ -362,7 +362,7 @@ a > img {
 @media (max-width: 991px) {
     /* Heading */
     .intro {
-        height: 70%;
+        height: 85%;
     }
 
     .intro .intro-body #page-heading {
