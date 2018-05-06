@@ -81,7 +81,7 @@ a:hover, a:focus {
 }
 
 .top-responsive {
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 a > img {
@@ -360,6 +360,25 @@ a > img {
 
 /* XS, SM */
 @media (max-width: 991px) {
+    /* Buttons */
+    .btn-lg {
+        font-size: 20px;
+        margin-bottom: 2em;
+    }
+
+    /* List groups */
+    .list-group-item {
+        font-size: 16px;
+    }
+
+    .list-group-item.header {
+        font-size: 24px;
+    }
+
+    .primary .list-group-item.header {
+        font-size: 32px;
+    }
+
     /* Heading */
     .intro {
         height: 85%;
