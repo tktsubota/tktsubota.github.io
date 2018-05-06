@@ -1,70 +1,19 @@
-.top-buffer {
-    margin-top: 50px;
-}
+/** Universal **/
 
-.top-buffer-half {
-    margin-top: 25px;
-}
-
-.fa-angle-double-down {
-    margin: 0;
-    padding: 0 0 0 1px;
-}
-
-.bottom-zero {
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-.top-responsive {
-    margin-top: 75px;
-}
-
-.img-circle {
-    background-size: cover;
-    margin: 0 auto;
-    border: 1px solid #333;
-}
-
-a > img {
-    margin-bottom: 25px;
-}
-
-.btn-default {
-    margin-bottom: 25px;
-}
-
-#copyright {
-    font-size: 12px;
-}
-
-.content-section {
-    padding-top: 100px;
-}
-
-.intro {
-    background: url(assets/banner.jpg) no-repeat center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: rgba(0,0,0,.4);
-    background-blend-mode: multiply;
-}
-
+/* Font & color defaults */
 body {
     background-color: white;
-    font-family: Georgia, serif;
+    font-family: "Avenir Next", Helvetica, Arial, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
     color: #333;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Avenir Next", Helvetica, Arial, sans-serif;
     text-transform: none;
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 h2 {
@@ -75,21 +24,14 @@ h3 {
     font-size: 25px;
 }
 
-.btn {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: none;
-}
-
 p {
     color: #333;
 }
 
-a {
-    color: #048895;
-}
-
-a:hover, a:focus {
-    color: #03656f;
+/* Buttons & Links */
+.btn {
+    font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+    text-transform: none;
 }
 
 .btn-default {
@@ -97,6 +39,12 @@ a:hover, a:focus {
     border-radius: 500px;
     color: #048895;
     background-color: transparent;
+    margin-bottom: 25px;
+}
+
+.btn-lg {
+    font-size: 24px;
+    padding: 12px 25px;
 }
 
 .btn-default:hover,
@@ -110,10 +58,70 @@ a:hover, a:focus {
     background-color: #03656f;
 }
 
+a {
+    color: #048895;
+}
+
+a:hover, a:focus {
+    color: #03656f;
+}
+
+/* Margins & Padding */
+.top-buffer {
+    margin-top: 50px;
+}
+
+.top-buffer-half {
+    margin-top: 25px;
+}
+
+.bottom-zero {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.top-responsive {
+    margin-top: 75px;
+}
+
+a > img {
+    margin-bottom: 25px;
+}
+
+.content-section {
+    padding-top: 100px;
+}
+
+/* Images */
+.img-circle {
+    background-size: cover;
+    margin: 0 auto;
+    border: 1px solid #333;
+}
+
+/* List groups */
+.list-group-item {
+    color: #333;
+    font-size: 20px;
+}
+
+.list-group-item.header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+/** Navbar **/
+
 .navbar-custom, .navbar-custom.top-nav-collapse {
     background-color: white;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Avenir Next", Helvetica, Arial, sans-serif;
     text-transform: none;
+    font-weight: 500;
+}
+
+.navbar-custom.top-nav-collapse {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.3);
 }
 
 .navbar-custom.top-nav-collapse a {
@@ -133,11 +141,6 @@ a:hover, a:focus {
 .navbar-custom .navbar-toggle {
     color: #048895;
     border-color: #048895;
-}
-
-.intro .intro-body .brand-heading,
-.intro .intro-body .intro-text {
-    color: white;
 }
 
 .navbar-custom .nav li a {
@@ -167,16 +170,119 @@ a:hover, a:focus {
     outline: none;
 }
 
-.intro .intro-body .intro-text {
+/** Heading **/
+.intro {
+    background: url(assets/banner.jpg) no-repeat center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(0,0,0,.7);
+    background-blend-mode: multiply;
+    position: relative;
+    height: 100%;
+}
+
+.intro-body {
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro .intro-body #page-heading,
+.intro .intro-body #page-subheading {
+    color: white;
+}
+
+.intro .intro-body #page-heading {
+    font-size: 70px;
+}
+
+.intro .intro-body #page-subheading {
+    font-size: 35px;
+}
+
+#down-arrow-container {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#btn-down-arrow {
+    font-size: 100px;
+    margin: 0 auto;
+}
+
+#btn-down-arrow:hover {
+    opacity: 0.7;
+}
+
+#wide-arrow-img {
+    width: 250px;
+    height: auto;
+}
+
+/** About **/
+
+#about .list-group-item.header {
+    background-color: clear;
+    color: #333;
+}
+
+.primary .list-group-item.header {
+    background-color: #048895;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+/** Skills **/
+
+#skills .list-group-item.header {
+    background-color: #048895;
+    color: white;
+}
+
+.list-group-item .badge-pill {
+    background-color: transparent;
     font-size: 20px;
+    color: #ddd;
 }
 
-.btn-twitter, .btn-github, .btn-stack-overflow {
+.filled-stars {
+    color: #048895;
+}
+
+/** Projects **/
+
+.project-header {
+    margin-bottom: 0.25em;
+}
+
+.text-left-center {
+    text-align: left;
+}
+
+/** Contributions **/
+.bordered-image {
+    border: 1px solid #ddd;
+}
+
+/** Contact **/
+
+/* General */
+.btn-fa {
     margin-bottom: 0;
-    padding: 8px;
+    padding: 10px;
     font-size: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Twitter */
 .btn-twitter {
     border-color: #55acee;
     color: #55acee;
@@ -191,6 +297,7 @@ a:hover, a:focus {
     background-color: #55acee;
 }
 
+/* GitHub */
 .btn-github {
     border-color: #333;
     color: #333;
@@ -205,6 +312,7 @@ a:hover, a:focus {
     background-color: #333;
 }
 
+/* Stack Overflow */
 .btn-stack-overflow {
     border-color: #f48024;
     color: #f48024;
@@ -219,24 +327,66 @@ a:hover, a:focus {
     background-color: #f48024;
 }
 
+/* Wallet */
 .apple-wallet-img {
     width: 200px;
     height: auto;
 }
 
+/** Footer **/
+
+.footer-text {
+    font-size: 12px;
+    margin-bottom: 1em;
+}
+
+/** Media Queries  **/
+
+/* XS */
 @media (max-width: 767px) {
-    .apple-wallet-img {
-        margin-top: 25px;
-    }
-    #articles .text-left {
-        text-align: center;
-    }
-    #articles .text-right {
-        text-align: center;
+    /* Heading */
+    #wide-arrow-img {
+        width: 100px;
     }
 }
 
+/* SM */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Heading */
+    #wide-arrow-img {
+        width: 150px;
+    }
+}
+
+/* XS, SM */
+@media (max-width: 991px) {
+    /* Heading */
+    .intro {
+        height: 70%;
+    }
+
+    .intro .intro-body #page-heading {
+        font-size: 50px;
+    }
+
+    .intro .intro-body #page-subheading {
+        font-size: 30px;
+    }
+
+    /* Projects */
+    .text-left-center {
+        text-align: center;
+    }
+
+    /* Contact */
+    .apple-wallet-img {
+        margin-top: 25px;
+    }
+}
+
+/* MD, LG */
 @media (min-width: 992px) {
+    /* Font sizes */
     h1 {
         font-size: 55px;
     }
@@ -249,14 +399,16 @@ a:hover, a:focus {
         font-size: 30px;
     }
 
-    .intro .intro-body .brand-heading {
-        font-size: 70px;
+    /* Margins */
+    .top-responsive {
+        margin-top: 0;
     }
 
-    .intro .intro-body .intro-text {
-        font-size: 35px;
+    .btn-fa {
+        margin-bottom: 25px;
     }
 
+    /* Navbar */
     .navbar-custom {
         color: white;
         background-color: transparent;
@@ -265,11 +417,6 @@ a:hover, a:focus {
     .navbar-custom .nav li a {
         color: white;
         font-size: 16px;
-    }
-
-    .navbar-custom.top-nav-collapse {
-        background-color: white;
-        border-bottom: 1px solid rgba(51, 51, 51, 0.3);
     }
 
     .navbar-custom .navbar-brand {
@@ -286,13 +433,5 @@ a:hover, a:focus {
 
     .navbar-custom .nav li a:hover {
         color: rgba(255, 255, 255, 0.8);
-    }
-
-    .top-responsive {
-        margin-top: 0;
-    }
-
-    .btn-twitter, .btn-github, .btn-stack-overflow {
-        margin-bottom: 25px;
     }
 }
