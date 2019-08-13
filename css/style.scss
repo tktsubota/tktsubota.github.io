@@ -5,3 +5,7 @@
 
 @import "bootstrap-4.3.1/bootstrap";
 @import "font-awesome-5.10.1/fontawesome";
+
+.navbar-brand {
+    font-size: $h1-font-size;
+}
