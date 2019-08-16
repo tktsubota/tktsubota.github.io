@@ -2,10 +2,10 @@
 layout: default
 ---
 <div class="row">
-    <div class="col-4 offset-4 col-md-3 offset-md-1 order-md-2">
+    <div class="col-4 offset-4 col-lg-3 offset-lg-1 order-lg-2">
         <img src="/assets/headshot.jpg" class="rounded img-fluid"/>
     </div>
-    <div class="col-md-7 offset-md-1 order-md-1">
+    <div class="col-lg-7 offset-lg-1 order-lg-1">
         <p>I'm currently a junior at Corona del Mar High School in southern California.</p>
         <p>My two biggest interests are mathematics and astronomy. I also like to follow the latest on politics, technology, and science.</p>
         <p>As the Junior Class President, I am focused on creating a better atmosphere for students. I am pioneering efforts for school-wide modernization through technology and environmental sustainability.</p>
@@ -20,8 +20,8 @@ layout: default
 </div>
 <div>
     {% for post in site.posts limit:4 %}
-    <div class="row">
-        <div class="col-md-10 offset-md-1">
+    <div class="row post-row">
+        <div class="col-lg-10 offset-lg-1">
             <h3>
                 <a href="{{ post.url }}">{{ post.title }}</a>
             </h3>
@@ -42,7 +42,7 @@ layout: default
     </div>
 </div>
 <div class="row">
-    <div class="col-md-10 offset-md-1">
+    <div class="col-lg-10 offset-lg-1">
         <p><i class="fas fa-inbox"></i> troy (dot) tsubota (at) gmail (dot) com</p>
         <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/troy-tsubota-39a578176">LinkedIn</a></p>
         <p><i class="fab fa-github"></i> <a href="https://github.com/{{ site.github_username }}">GitHub</a></p>

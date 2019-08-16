@@ -3,6 +3,9 @@
 
 @charset "utf-8";
 
+$primary: #048895;
+$font-family-sans-serif: "Avenir Next", Helvetica, Arial, sans-serif;
+
 @import "bootstrap-4.3.1/bootstrap";
 @import "font-awesome-5.10.1/fontawesome";
 @import "font-awesome-5.10.1/solid.scss";
@@ -10,4 +13,8 @@
 
 .navbar-brand {
     font-size: $h1-font-size;
+}
+
+.post-row {
+    margin-top:$spacer;
 }
