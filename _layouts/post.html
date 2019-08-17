@@ -16,3 +16,15 @@ layout: text
 <div class="long-text">
     {{ content }}
 </div>
+<div class="row">
+    <div class="col-auto">
+        {% if page.previous.url %}
+            <a href="{{page.previous.url}}">&laquo;&nbsp;{{ page.previous.title }}</a>
+        {% endif %}
+    </div>
+    <div class="col-auto ml-auto">
+        {% if page.next.url %}
+            <a href="{{page.next.url}}">{{ page.next.title }}&nbsp;&raquo;</a>
+        {% endif %}
+    </div>
+</div>
