@@ -2,6 +2,9 @@
 layout: post
 title: "Sample Post"
 date: 2019-08-11 18:34:58 -0700
+categories: [astronomy, math]
+description: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed augue lacus viverra vitae.
 ---
 Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus eget integer turpis auctor dignissim ullamcorper non erat quisque, bibendum eu aliquam habitasse porta fames accumsan volutpat velit mauris sem libero lacinia phasellus fringilla. Luctus vulputate convallis congue placerat tincidunt diam eleifend cras maecenas, cursus sociis mus accumsan aptent dignissim class tortor, viverra etiam eros quisque non proin at vestibulum. Libero a erat tempor lectus auctor fringilla, magna interdum ac consequat quisque proin, fermentum rutrum inceptos nulla turpis.
 

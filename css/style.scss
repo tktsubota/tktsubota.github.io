@@ -15,6 +15,22 @@ $font-family-sans-serif: "Avenir Next", Helvetica, Arial, sans-serif;
     font-size: $h1-font-size;
 }
 
+.navbar-custom .navbar-toggler {
+    color: $primary;
+    border-color: $primary;
+}
+
 .post-row {
-    margin-top:$spacer;
+    margin-top: $spacer;
+}
+
+.long-text {
+    margin-top: $spacer;
+}
+
+@include media-breakpoint-down(md) {
+    h2 {
+        margin-top: $spacer;
+        text-align: center;
+    }
 }

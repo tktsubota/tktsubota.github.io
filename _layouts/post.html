@@ -5,9 +5,17 @@ layout: default
     <article>
         <header>
             <h1 class="text-center">{{ page.title }}</h1>
-            <h5 class="subtitle post-description text-center">{{ page.date | date_to_long_string }}</h5>
+            <h6 class="subtitle post-description text-center">{{ page.date | date_to_long_string }} • [
+                {% for category in page.categories %}
+                    {{ category }}
+                    {% if forloop.last != true %}
+                        ,
+                    {% endif %}
+                {% endfor %}
+                ]
+            </h6>
         </header>
-        <div>
+        <div class="long-text">
           {{ content }}
         </div>
     </article>

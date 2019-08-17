@@ -6,6 +6,8 @@ url: https://tktsubota.github.io
 twitter_username: tktsubota
 github_username: tktsubota
 
+permalink: /:title/
+
 # Build settings
 markdown: kramdown
 plugins:
