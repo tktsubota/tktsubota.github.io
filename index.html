@@ -8,18 +8,17 @@ layout: default
     <div class="col-lg-7 offset-lg-1 order-lg-1 long-text">
         <p>I'm currently a junior at Corona del Mar High School in southern California.</p>
         <p>My two biggest interests are mathematics and astronomy. I also like to follow the latest on politics, technology, and science.</p>
-        <p>As the Junior Class President, I am focused on creating a better atmosphere for students. I am pioneering efforts for school-wide modernization through technology and environmental sustainability.</p>
-        <p>Feel free to read more <a href="/about">About Me</a>.</p>
+        <p>Feel free to read more <a href="/about">about me</a>.</p>
     </div>
 </div>
 
 <div class="row">
     <div class="col-12">
-        <h2>Recent Posts</h2>
+        <h2 class="heading">Recent Posts</h2>
     </div>
 </div>
 <div>
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts limit:3 %}
     <div class="row post-row">
         <div class="col-lg-10 offset-lg-1 col-xl-8">
             <h3>
@@ -30,15 +29,15 @@ layout: default
     </div>
     {% endfor %}
 </div>
-<div class="row">
-    <div class="col-auto ml-auto">
+<div class="row justify-content-center">
+    <div class="col-auto ml-lg-auto">
         <a href="/blog" class="btn btn-outline-primary btn-sm" role="button" aria-disabled="true">All Posts</a>
     </div>
 </div>
 
 <div class="row">
     <div class="col-12">
-        <h2>Contact</h2>
+        <h2 class="heading">Contact</h2>
     </div>
 </div>
 <div class="row">
