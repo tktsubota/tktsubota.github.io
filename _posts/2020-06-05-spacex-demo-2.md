@@ -8,9 +8,9 @@ description: >
 
 {% include image.html url="/spacex-demo-2/falcon-9-launch.jpg" alt-text="Falcon 9 Launch" caption="The Falcon 9 launches from Kennedy Space Center Pad 39A in Florida to the International Space Station in the SpaceX Demo-2 mission." source="SpaceX" source-url="https://www.flickr.com/photos/spacex/49956396622/" %}
 
-We have seen the headlines. The first human launch on US soil since 2011. The first ever private human spaceflight. The beginning of a new era for space travel.
+The first human space launch from US soil since 2011. The first ever private human spaceflight. The beginning of a new era for space travel.
 
-But, these headlines don't capture the depth and significance of this milestone. It may be hard to understand how returning to the International Space Station — which has already happened consistently for the past twenty years — is anything close to the magnificence of Neil Armstrong taking steps on the Moon more than fifty years ago. How is this simple mission, SpaceX Demo-2, truly the beginning of a new era?
+These headlines don't capture the depth and significance of this milestone. It may be hard to understand how returning to the International Space Station — which has already happened consistently for the past twenty years — is anything close to the magnificence of Neil Armstrong taking steps on the Moon more than fifty years ago. How is this simple mission, SpaceX Demo-2, truly the beginning of a new era?
 
 Let's take a look at some history.
 
@@ -18,9 +18,9 @@ In 1957, the Soviet Union shocked the world with the launch of *Sputnik* into or
 
 NASA peaked with the Apollo lunar program. The grand total of $25.4 billion makes Apollo one of the most costly nonmilitary US government projects to date. The massive feat of landing humans on the Moon in 1969, matching JFK's timeline, pushed the best engineers to the limit to maximize the potential of 1960's technology. The completion of Apollo, and the failure of the USSR to match it, marked the end of the Space Race. As public support declined and NASA's budget was slashed, the US would go on to develop the Space Shuttle and coordinate with Russia on the International Space Station.
 
-The Space Race was, quite simply, a competition. Each country strived to be better than the other. This competitive atmosphere fostered the rapid development seen in the 1960's. In just eight years, the US went from launching Alan Shepard to orbit to landing Neil Armstrong on the Moon.
+The Space Race was, quite simply, a competition. Each country strived to be better than the other.
 
-Competition has its perks. Competition encourages rapid and innovative development. Competition between companies spawns better products and keeps prices down for consumers. It is the absence of competition in the past few decades that has crippled advancements in space exploration.
+Competition has its perks. Competition encourages innovation. Competition between companies spawns better products and keeps prices down for consumers. Competition fostered the rapid development seen in the 1960's Space Race. In just eight years, the US went from launching Alan Shepard to orbit to landing Neil Armstrong on the Moon. And it is the absence of competition in the past few decades that has crippled advancements in space exploration.
 
 But competition is finally back.
 
@@ -60,9 +60,9 @@ SpaceX cannot dominate this industry alone, or else competition diminishes. Comp
 
 This new space race is not limited to just the private sector. Ever since the Shuttle was retired in 2011, Russia has been the only country capable of launching humans to the International Space Station. NASA has paid Russia about $90 million per astronaut just to send them there.
 
-Now, the United States has brought human spaceflight back home, at an even cheaper ticket price of $60 million through SpaceX. As Elon Musk said in jest, ["the trampoline is working."](https://www.space.com/elon-musk-spacex-launch-trampoline-comment-explained.html) Other countries like Canada and Japan will once again send their astronauts on US rockets. Now without a monopoly on ISS launches, Russia will need to enhance their space program or concede to the US.
+Now, the United States has brought human spaceflight back home, at an even cheaper ticket price of $60 million through SpaceX. As Elon Musk jokingly remarked, ["the trampoline is working."](https://www.space.com/elon-musk-spacex-launch-trampoline-comment-explained.html) Other countries like Canada and Japan will once again send their astronauts on US rockets. Now without a monopoly on ISS launches, Russia will need to enhance their space program or concede to the US.
 
-The Demo-2 mission validates the ongoing effort of SpaceX and NASA and finally brings them into the limelight. SpaceX has paved the way for private competition, government competition, and more public-private partnerships in space with their state-of-the-art technologies. This is truly the beginning of a second space race, this time without the fear of a nuclear apocalypse. A sustainable return to the Moon, the first habitat on Mars, and space tourism for the general population are all now closer than ever. The world should be getting excited.
+This was not just another rocket launch. The Demo-2 mission validates the ongoing effort of SpaceX and NASA and finally brings them into the limelight. SpaceX has paved the way for private competition, government competition, and more public-private partnerships in space with their state-of-the-art technologies. This is truly the beginning of a second space race, this time without the fear of a nuclear apocalypse. A sustainable return to the Moon, the first habitat on Mars, and space tourism for the general population are all now closer than ever. The world should be getting excited.
 
 ---
 
