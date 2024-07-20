@@ -6,7 +6,7 @@ excerpt: "Hubble Space Telescope Wide-Field Camera 3 (HST/WFC3) observations spa
 date: 2023-10-03
 venue: 'Journal of Geophysical Research: Planets'
 paperurl: 'https://doi.org/10.1029/2023JE007904'
-citation: 'A. James, P.G.J. Irwin, J. Dobinson, M.H. Wong, T.K. Tsubota, A.A. Simon et al. (2023). Journal of Geophysical Research: Planets <b>128</b> (10), e2023JE007904.'
+citation: 'A. James, P.G.J. Irwin, J. Dobinson, M.H. Wong, T.K. Tsubota, A.A. Simon et al. (2023). <i>Journal of Geophysical Research: Planets</i> <b>128</b> (10), e2023JE007904.'
 ---
 
 ### Abstract
