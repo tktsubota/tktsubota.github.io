@@ -16,6 +16,4 @@ On the teaching side, I am a 2-time Undergraduate Student Instructor (uGSI) for 
 
 Service and outreach are very important to me. I am the current co-president of the [UC Berkeley Society of Physics Students (SPS)](https://sps.berkeley.edu). Previously, I served as the SPS Outreach Chair for which I taught physics to elementary school students in collaboration with [Bay Area Scientists Inspiring Students (BASIS)](https://crscience.org/educators/BASIS/). I also serve on multiple physics department committees to improve the undergraduate curriculum and promote undergraduate research opportunities.
 
-Previously, I attended Corona del Mar High School and took additional mathematics courses at University of California, Irvine. Long ago, I built iOS apps and spent a lot of time [answering questions on Stack Overflow](https://stackoverflow.com/users/5644794/tktsubota).
-
 My CV is available [here](/files/troy_tsubota_CV.pdf).
