@@ -17,7 +17,7 @@ Here is a list of relevant courses I have taken (or am currently taking) at UC B
 | Physics 5CL | Daniel Barsky | Introduction to Experimental Physics II |
 | Physics 105 | Edgar Knobloch | Analytic Mechanics |
 | Physics 110A | Feng Wang | Electromagnetism and Optics I |
-| Physics 111A | Matt Pyle, Holger Mueller | Instrumentation Laboratory |
+| Physics 111A | Matt Pyle | Instrumentation Laboratory |
 | Physics 111B | William Holzapfel, Hartmut Haeffner | Advanced Experimentation Laboratory |
 | Physics 112 | Austin Hedeman | Introduction to Statistical and Thermal Physics |
 | Physics 137A | Irfan Siddiqi | Quantum Mechanics I |
